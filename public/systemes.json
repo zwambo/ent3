@@ -1,0 +1,905 @@
+[
+    {
+        "_id": "bbac",
+        "name": "Quo Vadis",
+        "lang": "fr",
+        "players": [
+            "Brigitte Becker",
+            "Antonio Cocco"
+        ],
+        "sequences": [
+            {
+                "_id": "1T",
+                "rotate": true
+            },
+            {
+                "_id": "1SA",
+                "rotate": true
+            }
+        ],
+        "bids": [
+            {
+                "_id": "1T",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 88871,
+                    "selectedDeals": 10000,
+                    "percent": 11.2
+                }
+            },
+            {
+                "_id": "1SA",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 71480,
+                    "selectedDeals": 10000,
+                    "percent": 13.9
+                }
+            }
+        ]
+    },
+    {
+        "_id": "cfac",
+        "name": "Vespa",
+        "lang": "fr",
+        "players": [
+            "Catherine Favé",
+            "Antonio Cocco"
+        ],
+        "sequences": [
+            {
+                "_id": "1T",
+                "name": "1♣ (Ouest)",
+                "desc": "Régulières 15-17 2+♣ (peut contenir 5 ♦/♥/♠)\nou Irrégulières 5+♣\nou Tricolores 4441 singleton ♦/♥\n",
+                "rotate": false
+            },
+            {
+                "_id": "1K",
+                "name": "1♦ (Ouest)",
+                "desc": "Irrégulières 11+ 5+♦\nou Tricolores 4441 singleton ♣/♠\n",
+                "rotate": false
+            },
+            {
+                "_id": "1C",
+                "name": "1♥ (Ouest)",
+                "desc": "11+ 5+ cartes",
+                "rotate": false
+            },
+            {
+                "_id": "1P",
+                "name": "1♠ (Ouest)",
+                "desc": "11+ 5+ cartes",
+                "rotate": false
+            },
+            {
+                "_id": "1SA",
+                "name": "1SA (Ouest)",
+                "desc": "Régulières 11 - 13(14). MAJ 5ème possible",
+                "rotate": false
+            },
+            {
+                "_id": "2T",
+                "name": "2♣ (Ouest)",
+                "desc": "Régulières 20+\nIrregulieres F/M\n",
+                "rotate": false
+            },
+            {
+                "_id": "2K",
+                "name": "2♦ (Ouest)",
+                "desc": "Frelling 5-10 Vert (8-9 perdantes), 8-10 Rouge (8 perdantes)\n(4+♦ et 4+♥) ou (4+♦ et 4+♠)\n",
+                "rotate": false
+            },
+            {
+                "_id": "2C",
+                "name": "2♥ (Ouest)",
+                "desc": "Frelling 5-10 Vert (8-9 perdantes), 8-10 Rouge (8 perdantes)\n(4+♥ et 4+♠) ou (4+♥ et 5+♣)\n",
+                "rotate": false
+            },
+            {
+                "_id": "2P",
+                "name": "2♠ (Ouest)",
+                "desc": "Frelling 5-10 (4+♠ et 5+♣) ou 6+♠",
+                "rotate": false
+            },
+            {
+                "_id": "2SA",
+                "name": "2SA (Ouest)",
+                "desc": "Régulières 18-19. MAJ 5ème possible",
+                "rotate": false
+            },
+            {
+                "_id": "3SA",
+                "name": "3SA (Ouest)",
+                "desc": "Unicolore ♥/♠ solide",
+                "rotate": false
+            },
+            {
+                "_id": "Turbo",
+                "desc": "Entrainement pour la convention Turbo\nE/W ont un fit 8eme et une possibilité de chelem\n(pas toujours sinon ce n'est pas du jeu)\n",
+                "boards": 100,
+                "rotate": false
+            }
+        ],
+        "bids": [
+            {
+                "_id": "1T",
+                "name": "1♣ (Ouest)",
+                "desc": "Régulières 15-17 2+♣ (peut contenir 5 ♦/♥/♠)\nou Irrégulières 5+♣\nou Tricolores 4441 singleton ♦/♥\n",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 62392,
+                    "selectedDeals": 10000,
+                    "percent": 16.0
+                }
+            },
+            {
+                "_id": "1K",
+                "name": "1♦ (Ouest)",
+                "desc": "Irrégulières 11+ 5+♦\nou Tricolores 4441 singleton ♣/♠\n",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 181301,
+                    "selectedDeals": 10000,
+                    "percent": 5.5
+                }
+            },
+            {
+                "_id": "1C",
+                "name": "1♥ (Ouest)",
+                "desc": "11+ 5+ cartes",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 175872,
+                    "selectedDeals": 10000,
+                    "percent": 5.6
+                }
+            },
+            {
+                "_id": "1P",
+                "name": "1♠ (Ouest)",
+                "desc": "11+ 5+ cartes",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 164572,
+                    "selectedDeals": 10000,
+                    "percent": 6.0
+                }
+            },
+            {
+                "_id": "1SA",
+                "name": "1SA (Ouest)",
+                "desc": "Régulières 11 - 13(14). MAJ 5ème possible",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 76870,
+                    "selectedDeals": 10000,
+                    "percent": 13.0
+                }
+            },
+            {
+                "_id": "2T",
+                "name": "2♣ (Ouest)",
+                "desc": "Régulières 20+\nIrregulieres F/M\n",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 613465,
+                    "selectedDeals": 10000,
+                    "percent": 1.6
+                }
+            },
+            {
+                "_id": "2K",
+                "name": "2♦ (Ouest)",
+                "desc": "Frelling 5-10 Vert (8-9 perdantes), 8-10 Rouge (8 perdantes)\n(4+♦ et 4+♥) ou (4+♦ et 4+♠)\n",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 114586,
+                    "selectedDeals": 10000,
+                    "percent": 8.7
+                }
+            },
+            {
+                "_id": "2C",
+                "name": "2♥ (Ouest)",
+                "desc": "Frelling 5-10 Vert (8-9 perdantes), 8-10 Rouge (8 perdantes)\n(4+♥ et 4+♠) ou (4+♥ et 5+♣)\n",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 166112,
+                    "selectedDeals": 10000,
+                    "percent": 6.0
+                }
+            },
+            {
+                "_id": "2P",
+                "name": "2♠ (Ouest)",
+                "desc": "Frelling 5-10 (4+♠ et 5+♣) ou 6+♠",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 284351,
+                    "selectedDeals": 10000,
+                    "percent": 3.5
+                }
+            },
+            {
+                "_id": "2SA",
+                "name": "2SA (Ouest)",
+                "desc": "Régulières 18-19. MAJ 5ème possible",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 325873,
+                    "selectedDeals": 10000,
+                    "percent": 3.0
+                }
+            },
+            {
+                "_id": "3SA",
+                "name": "3SA (Ouest)",
+                "desc": "Unicolore ♥/♠ solide",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 2445664,
+                    "selectedDeals": 10000,
+                    "percent": 0.4
+                }
+            },
+            {
+                "_id": "Turbo",
+                "desc": "Entrainement pour la convention Turbo\nE/W ont un fit 8eme et une possibilité de chelem\n(pas toujours sinon ce n'est pas du jeu)\n",
+                "boards": 100,
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 166672,
+                    "selectedDeals": 10000,
+                    "percent": 5.9
+                }
+            }
+        ]
+    },
+    {
+        "_id": "cfyl",
+        "name": "Majeure 5ème, Meilleure Mineure\n",
+        "lang": "fr",
+        "players": [
+            "Catherine Favé",
+            "Yves Lesage"
+        ],
+        "sequences": [
+            {
+                "_id": "1T",
+                "name": "1♣ (Ouest)",
+                "rotate": true,
+                "desc": "Régulières 11-14 3+♣\nou Régulières 18-19 3+♣\nou Irrégulières 11+ 5+♣\nou Tricolores 4441 singleton ♦/♥\n"
+            },
+            {
+                "_id": "1K",
+                "name": "1♦ (Ouest)",
+                "desc": "Régulières 18-19 3+♦\nou Irrégulières 5+♦\nou Tricolores 4441 singleton ♣/♠\n",
+                "rotate": true
+            },
+            {
+                "_id": "1C",
+                "name": "1♥ (Ouest)",
+                "desc": "11+ 5+ cartes",
+                "rotate": true
+            },
+            {
+                "_id": "1P",
+                "name": "1♠ (Ouest)",
+                "desc": "11+ 5+ cartes",
+                "rotate": true
+            },
+            {
+                "_id": "1SA",
+                "name": "1SA (Ouest)",
+                "desc": "14+/17, 5♥/♠ possibles, 6♣/♦ possibles",
+                "rotate": true
+            },
+            {
+                "_id": "2T",
+                "name": "2♣ (Ouest)",
+                "desc": "Régulières 24+ ou Irrégulières F/M",
+                "rotate": true
+            },
+            {
+                "_id": "2K",
+                "name": "2♦ (Ouest)",
+                "desc": "4-10 hcp, 6+♥/♠ (destructif)\nou 22-23 BAL\nou unicolore ACOL ♣/♦\n",
+                "rotate": true
+            },
+            {
+                "_id": "2C",
+                "name": "2♥ (Ouest)",
+                "desc": "4-10 4+♥ & 4+♠",
+                "rotate": true
+            },
+            {
+                "_id": "2P",
+                "name": "2♠ (Ouest)",
+                "desc": "4-10 hcp 5♠ 4+♣/♦",
+                "rotate": true
+            },
+            {
+                "_id": "2SA",
+                "name": "2SA (Ouest)",
+                "desc": "bal 20-21",
+                "rotate": true
+            }
+        ],
+        "bids": [
+            {
+                "_id": "1T",
+                "name": "1♣ (Ouest)",
+                "rotate": true,
+                "desc": "Régulières 11-14 3+♣\nou Régulières 18-19 3+♣\nou Irrégulières 11+ 5+♣\nou Tricolores 4441 singleton ♦/♥\n",
+                "stats": {
+                    "totalDeals": 77884,
+                    "selectedDeals": 10000,
+                    "percent": 12.8
+                }
+            },
+            {
+                "_id": "1K",
+                "name": "1♦ (Ouest)",
+                "desc": "Régulières 18-19 3+♦\nou Irrégulières 5+♦\nou Tricolores 4441 singleton ♣/♠\n",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 72704,
+                    "selectedDeals": 10000,
+                    "percent": 13.7
+                }
+            },
+            {
+                "_id": "1C",
+                "name": "1♥ (Ouest)",
+                "desc": "11+ 5+ cartes",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 207706,
+                    "selectedDeals": 10000,
+                    "percent": 4.8
+                }
+            },
+            {
+                "_id": "1P",
+                "name": "1♠ (Ouest)",
+                "desc": "11+ 5+ cartes",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 195049,
+                    "selectedDeals": 10000,
+                    "percent": 5.1
+                }
+            },
+            {
+                "_id": "1SA",
+                "name": "1SA (Ouest)",
+                "desc": "14+/17, 5♥/♠ possibles, 6♣/♦ possibles",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 107747,
+                    "selectedDeals": 10000,
+                    "percent": 9.2
+                }
+            },
+            {
+                "_id": "2T",
+                "name": "2♣ (Ouest)",
+                "desc": "Régulières 24+ ou Irrégulières F/M",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 165411,
+                    "selectedDeals": 10000,
+                    "percent": 6.0
+                }
+            },
+            {
+                "_id": "2K",
+                "name": "2♦ (Ouest)",
+                "desc": "4-10 hcp, 6+♥/♠ (destructif)\nou 22-23 BAL\nou unicolore ACOL ♣/♦\n",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 193739,
+                    "selectedDeals": 10000,
+                    "percent": 5.1
+                }
+            },
+            {
+                "_id": "2C",
+                "name": "2♥ (Ouest)",
+                "desc": "4-10 4+♥ & 4+♠",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 248443,
+                    "selectedDeals": 10000,
+                    "percent": 4.0
+                }
+            },
+            {
+                "_id": "2P",
+                "name": "2♠ (Ouest)",
+                "desc": "4-10 hcp 5♠ 4+♣/♦",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 275953,
+                    "selectedDeals": 10000,
+                    "percent": 3.6
+                }
+            },
+            {
+                "_id": "2SA",
+                "name": "2SA (Ouest)",
+                "desc": "bal 20-21",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 1563267,
+                    "selectedDeals": 10000,
+                    "percent": 0.6
+                }
+            }
+        ]
+    },
+    {
+        "_id": "comp",
+        "name": "Compétitives",
+        "lang": "fr",
+        "sequences": [
+            {
+                "_id": "interventions",
+                "name": "Interventions sur ouvertures adverses\n",
+                "desc": "Nord ouvre tout et n'importe quoi, ou pire :-)\n",
+                "boards": 100,
+                "rotate": false
+            },
+            {
+                "_id": "x-2K-multi",
+                "name": "Défense contre 2♦ Multi",
+                "desc": "Nord ouvre de 2♦\n4-10 hcp, 6+♥/♠\nou 22-23 BAL\nou unicolore ACOL ♣/♦\n",
+                "rotate": false
+            },
+            {
+                "_id": "x-2C-44-MAJ",
+                "name": "Défense contre 2♥ 4+4+ MAJ",
+                "desc": "Nord ouvre de 2♥ 4+♥ & 4+♠",
+                "rotate": false
+            }
+        ],
+        "bids": [
+            {
+                "_id": "interventions",
+                "name": "Interventions sur ouvertures adverses\n",
+                "desc": "Nord ouvre tout et n'importe quoi, ou pire :-)\n",
+                "boards": 100,
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 16937,
+                    "selectedDeals": 10000,
+                    "percent": 59.0
+                }
+            },
+            {
+                "_id": "x-2K-multi",
+                "name": "Défense contre 2♦ Multi",
+                "desc": "Nord ouvre de 2♦\n4-10 hcp, 6+♥/♠\nou 22-23 BAL\nou unicolore ACOL ♣/♦\n",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 134805,
+                    "selectedDeals": 10000,
+                    "percent": 7.4
+                }
+            },
+            {
+                "_id": "x-2C-44-MAJ",
+                "name": "Défense contre 2♥ 4+4+ MAJ",
+                "desc": "Nord ouvre de 2♥ 4+♥ & 4+♠",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 255323,
+                    "selectedDeals": 10000,
+                    "percent": 3.9
+                }
+            }
+        ]
+    },
+    {
+        "_id": "kach",
+        "name": "KACH\nMajeure 5ème, ♦ irrégulier\n",
+        "lang": "fr",
+        "players": [
+            "Philippe Chottin",
+            "Philippe Kasler"
+        ],
+        "sequences": [
+            {
+                "_id": "1T",
+                "name": "1♣ (Ouest)",
+                "rotate": true,
+                "desc": "Régulières 11-14 2+♣\nou Régulières 18-19 2+♣\nou Irrégulières 11+ 5+♣\nou Tricolores 4441 singleton ♦/♥\n"
+            },
+            {
+                "_id": "1K",
+                "name": "1♦ (Ouest)",
+                "desc": "Régulières 18-19 4+♦\nou Irrégulières 5+♦\nou Tricolores 4441 singleton ♣/♠\n",
+                "rotate": true
+            },
+            {
+                "_id": "1C",
+                "name": "1♥ (Ouest)",
+                "desc": "11+ 5+ cartes",
+                "rotate": true
+            },
+            {
+                "_id": "1P",
+                "name": "1♠ (Ouest)",
+                "desc": "11+ 5+ cartes",
+                "rotate": true
+            },
+            {
+                "_id": "1SA",
+                "name": "1SA (Ouest)",
+                "desc": "14+/17, 5♥/♠ possibles, 6♣/♦ possibles",
+                "rotate": true
+            },
+            {
+                "_id": "2T",
+                "name": "2♣ (Ouest)",
+                "desc": "Régulières 24+ ou Irrégulières F/M",
+                "rotate": true
+            },
+            {
+                "_id": "2K",
+                "name": "2♦ (Ouest)",
+                "desc": "4-10 hcp, 6+♥/♠ (destructif)\nou 22-23 BAL\nou unicolore ACOL ♣/♦\n",
+                "rotate": true
+            },
+            {
+                "_id": "2C",
+                "name": "2♥ (Ouest)",
+                "desc": "4-10 4+♥ & 4+♠",
+                "rotate": true
+            },
+            {
+                "_id": "2P",
+                "name": "2♠ (Ouest)",
+                "desc": "4-10 hcp 5♠ 4+♣/♦",
+                "rotate": true
+            },
+            {
+                "_id": "2SA",
+                "name": "2SA (Ouest)",
+                "desc": "bal 20-21",
+                "rotate": true
+            },
+            {
+                "_id": "3SA",
+                "name": "3SA (Ouest)",
+                "desc": "Unicolore ♥/♠ solide",
+                "rotate": true
+            },
+            {
+                "_id": "slam-1",
+                "name": "Entrainement  chelem",
+                "desc": "Entrainement pour les sequences de Chelem\nE/W ont un fit 8eme et entre 0 et 4 perdantes\n",
+                "boards": 100,
+                "rotate": false
+            }
+        ],
+        "bids": [
+            {
+                "_id": "1T",
+                "name": "1♣ (Ouest)",
+                "rotate": true,
+                "desc": "Régulières 11-14 2+♣\nou Régulières 18-19 2+♣\nou Irrégulières 11+ 5+♣\nou Tricolores 4441 singleton ♦/♥\n",
+                "stats": {
+                    "totalDeals": 59369,
+                    "selectedDeals": 10000,
+                    "percent": 16.8
+                }
+            },
+            {
+                "_id": "1K",
+                "name": "1♦ (Ouest)",
+                "desc": "Régulières 18-19 4+♦\nou Irrégulières 5+♦\nou Tricolores 4441 singleton ♣/♠\n",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 123566,
+                    "selectedDeals": 10000,
+                    "percent": 8.0
+                }
+            },
+            {
+                "_id": "1C",
+                "name": "1♥ (Ouest)",
+                "desc": "11+ 5+ cartes",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 180074,
+                    "selectedDeals": 10000,
+                    "percent": 5.5
+                }
+            },
+            {
+                "_id": "1P",
+                "name": "1♠ (Ouest)",
+                "desc": "11+ 5+ cartes",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 165706,
+                    "selectedDeals": 10000,
+                    "percent": 6.0
+                }
+            },
+            {
+                "_id": "1SA",
+                "name": "1SA (Ouest)",
+                "desc": "14+/17, 5♥/♠ possibles, 6♣/♦ possibles",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 106239,
+                    "selectedDeals": 10000,
+                    "percent": 9.4
+                }
+            },
+            {
+                "_id": "2T",
+                "name": "2♣ (Ouest)",
+                "desc": "Régulières 24+ ou Irrégulières F/M",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 167100,
+                    "selectedDeals": 10000,
+                    "percent": 5.9
+                }
+            },
+            {
+                "_id": "2K",
+                "name": "2♦ (Ouest)",
+                "desc": "4-10 hcp, 6+♥/♠ (destructif)\nou 22-23 BAL\nou unicolore ACOL ♣/♦\n",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 192652,
+                    "selectedDeals": 10000,
+                    "percent": 5.1
+                }
+            },
+            {
+                "_id": "2C",
+                "name": "2♥ (Ouest)",
+                "desc": "4-10 4+♥ & 4+♠",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 248057,
+                    "selectedDeals": 10000,
+                    "percent": 4.0
+                }
+            },
+            {
+                "_id": "2P",
+                "name": "2♠ (Ouest)",
+                "desc": "4-10 hcp 5♠ 4+♣/♦",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 278839,
+                    "selectedDeals": 10000,
+                    "percent": 3.5
+                }
+            },
+            {
+                "_id": "2SA",
+                "name": "2SA (Ouest)",
+                "desc": "bal 20-21",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 1556289,
+                    "selectedDeals": 10000,
+                    "percent": 0.6
+                }
+            },
+            {
+                "_id": "3SA",
+                "name": "3SA (Ouest)",
+                "desc": "Unicolore ♥/♠ solide",
+                "rotate": true,
+                "stats": {
+                    "totalDeals": 1616037,
+                    "selectedDeals": 10000,
+                    "percent": 0.6
+                }
+            },
+            {
+                "_id": "slam-1",
+                "name": "Entrainement  chelem",
+                "desc": "Entrainement pour les sequences de Chelem\nE/W ont un fit 8eme et entre 0 et 4 perdantes\n",
+                "boards": 100,
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 79156,
+                    "selectedDeals": 10000,
+                    "percent": 12.6
+                }
+            }
+        ]
+    },
+    {
+        "_id": "mbac",
+        "name": "Romulus & Remus",
+        "lang": "en",
+        "players": [
+            "Marc Balland",
+            "Antonio Cocco"
+        ],
+        "sequences": [
+            {
+                "_id": "1C",
+                "name": "1♣ (Ouest)",
+                "desc": "Artificiel 17+ toutes distributions",
+                "rotate": false
+            },
+            {
+                "_id": "1D",
+                "name": "1♦ (Ouest)",
+                "desc": "14-16 Régulières\nou 14-16 Irrégulières Unicolore 4♦\nou 14-16 Irrégulières Canapé 4+♦ 5+♣/♥/♠\nou Tricolores 4441 y compris singleton ♦\n",
+                "rotate": false
+            },
+            {
+                "_id": "1H",
+                "name": "1♥ (Ouest)",
+                "desc": "11-16 4+♥ canapé possible",
+                "rotate": false
+            },
+            {
+                "_id": "1S",
+                "name": "1♠ (Ouest)",
+                "desc": "11-16 4+♠ canapé possible",
+                "rotate": false
+            },
+            {
+                "_id": "1NT",
+                "name": "1SA (Ouest)",
+                "desc": "11-13 BAL/SEMI-BAL",
+                "rotate": false
+            },
+            {
+                "_id": "2C",
+                "name": "2♣ (Ouest)",
+                "desc": "14-16 4+♣ canapé possible",
+                "rotate": false
+            },
+            {
+                "_id": "2D",
+                "name": "2♦ multi (Ouest)",
+                "desc": "4-10 hcp, 6+♥/♠ (destructif)\nou BAL 23+\nou F/M unicolore ♣/♦\n",
+                "rotate": false
+            },
+            {
+                "_id": "2H",
+                "name": "2♥ (Ouest)",
+                "desc": "11-13, 5♥ & 4+ ♣/♦",
+                "rotate": false
+            },
+            {
+                "_id": "2NT",
+                "name": "2SA (Ouest)",
+                "desc": "9-13, bic ♣/♦ 9+ cartes",
+                "rotate": false
+            },
+            {
+                "_id": "3C-3D",
+                "name": "3♣/♦ (Ouest)",
+                "desc": "9-13 6+ cartes",
+                "rotate": false
+            }
+        ],
+        "bids": [
+            {
+                "_id": "1C",
+                "name": "1♣ (Ouest)",
+                "desc": "Artificiel 17+ toutes distributions",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 143254,
+                    "selectedDeals": 10000,
+                    "percent": 6.9
+                }
+            },
+            {
+                "_id": "1D",
+                "name": "1♦ (Ouest)",
+                "desc": "14-16 Régulières\nou 14-16 Irrégulières Unicolore 4♦\nou 14-16 Irrégulières Canapé 4+♦ 5+♣/♥/♠\nou Tricolores 4441 y compris singleton ♦\n",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 125793,
+                    "selectedDeals": 10000,
+                    "percent": 7.9
+                }
+            },
+            {
+                "_id": "1H",
+                "name": "1♥ (Ouest)",
+                "desc": "11-16 4+♥ canapé possible",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 159854,
+                    "selectedDeals": 10000,
+                    "percent": 6.2
+                }
+            },
+            {
+                "_id": "1S",
+                "name": "1♠ (Ouest)",
+                "desc": "11-16 4+♠ canapé possible",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 158371,
+                    "selectedDeals": 10000,
+                    "percent": 6.3
+                }
+            },
+            {
+                "_id": "1NT",
+                "name": "1SA (Ouest)",
+                "desc": "11-13 BAL/SEMI-BAL",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 72187,
+                    "selectedDeals": 10000,
+                    "percent": 13.8
+                }
+            },
+            {
+                "_id": "2C",
+                "name": "2♣ (Ouest)",
+                "desc": "14-16 4+♣ canapé possible",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 518715,
+                    "selectedDeals": 10000,
+                    "percent": 1.9
+                }
+            },
+            {
+                "_id": "2D",
+                "name": "2♦ multi (Ouest)",
+                "desc": "4-10 hcp, 6+♥/♠ (destructif)\nou BAL 23+\nou F/M unicolore ♣/♦\n",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 145892,
+                    "selectedDeals": 10000,
+                    "percent": 6.8
+                }
+            },
+            {
+                "_id": "2H",
+                "name": "2♥ (Ouest)",
+                "desc": "11-13, 5♥ & 4+ ♣/♦",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 1051247,
+                    "selectedDeals": 10000,
+                    "percent": 0.9
+                }
+            },
+            {
+                "_id": "2NT",
+                "name": "2SA (Ouest)",
+                "desc": "9-13, bic ♣/♦ 9+ cartes",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 641736,
+                    "selectedDeals": 10000,
+                    "percent": 1.5
+                }
+            },
+            {
+                "_id": "3C-3D",
+                "name": "3♣/♦ (Ouest)",
+                "desc": "9-13 6+ cartes",
+                "rotate": false,
+                "stats": {
+                    "totalDeals": 490753,
+                    "selectedDeals": 10000,
+                    "percent": 2.0
+                }
+            }
+        ]
+    }
+]
