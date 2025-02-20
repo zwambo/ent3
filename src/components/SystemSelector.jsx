@@ -1,4 +1,4 @@
-// Fichier: src/components/SystemSelector.jsx
+// src/components/SystemSelector.jsx
 // =========================================
 import { createEffect } from 'solid-js';
 import { systems, selectedSystem, setSelectedSystem } from '../stores/stores';
@@ -7,7 +7,7 @@ function SystemSelector() {
 
   createEffect(() => {
       if (systems().length>0 && !selectedSystem())
-          setSelectedSystem(systems()[0]._id); // Correction ici
+          setSelectedSystem(systems()[0]._id);
   });
 
   return (
@@ -16,9 +16,9 @@ function SystemSelector() {
       <ul>
         {systems().map(system => (
           <li
-            key={system._id} // Correction ici
+            key={system._id}
             className={selectedSystem() === system._id ? 'bg-blue-200 cursor-pointer' : 'cursor-pointer'} // Correction ici
-            onClick={() => setSelectedSystem(system._id)} // Correction ici
+            onClick={() => setSelectedSystem(system._id)}
           >
             {system._id} {/* Affiche l'_id.  Vous pourrez remplacer par un autre champ (s'il y en a un) qui contient le nom "affichable" du système */}
           </li>

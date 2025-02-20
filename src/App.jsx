@@ -1,7 +1,11 @@
-import './App.css';
-import SystemSelector from './SystemSelector';
-import SequenceSelector from './SequenceSelector';
-import DealViewer from './DealViewer';
+// src/components/App.jsx
+
+import { createEffect, onMount } from 'solid-js';
+import './App.css'; //le point est important
+import SystemSelector from './components/SystemSelector';
+import BidSelector from './components/BidSelector';
+import DealViewer from './components/DealViewer';
+import { systems, updateSystems } from './stores/stores';
 
 function App() {
 
@@ -14,11 +18,11 @@ function App() {
   });
 
   return (
-    <div class="container mx-auto p-4">
-      <h1 class="text-2xl font-bold mb-4">Mon application de bridge</h1>
-      <div class="flex space-x-4">
+    <div className="container mx-auto p-4">
+      <h1 className="text-2xl font-bold mb-4">Mon application de bridge</h1>
+      <div className="flex space-x-4">
         <SystemSelector />
-        <SequenceSelector />
+        <BidSelector />
       </div>
       <DealViewer />
     </div>
