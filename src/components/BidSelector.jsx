@@ -1,19 +1,13 @@
-// src/components/BidSelector.jsx
+// Fichier: src/components/BidSelector.jsx
 // =========================================
-import { createMemo, createEffect } from 'solid-js';
-import { systems, selectedSystem, selectedBid, updateSelectedBid } from '../stores/stores';
+import { createMemo } from 'solid-js'; // Plus besoin de createEffect ici
+import { systems, selectedSystem, selectedBid, setSelectedBid } from '../stores/stores'; // On utilise setSelectedBid directement
 
 function BidSelector() {
 
   const filteredBids = createMemo(() => {
     const selectedSystemData = systems().find(system => system._id === selectedSystem());
     return selectedSystemData ? selectedSystemData.bids : [];
-  });
-
-  createEffect(() => {
-    if (selectedSystem() && filteredBids().length > 0 && !selectedBid()) {
-      updateSelectedBid(filteredBids()[0]._id);
-    }
   });
 
   return (
@@ -24,9 +18,9 @@ function BidSelector() {
           <li
             key={bid._id}
             className={selectedBid() === bid._id ? 'bg-blue-200 cursor-pointer' : 'cursor-pointer'}
-            onClick={() => updateSelectedBid(bid._id)}
+            onClick={() => setSelectedBid(bid._id)} // On utilise setSelectedBid directement
           >
-            {bid.name || bid._id} {/* Affiche bid.name s'il existe, sinon bid._id */}
+            {bid.name || bid._id}
           </li>
         ))}
       </ul>

@@ -1,0 +1,40 @@
+{
+    "_id": "bbac",
+    "name": "Quo Vadis",
+    "lang": "fr",
+    "players": [
+        "Brigitte Becker",
+        "Antonio Cocco"
+    ],
+    "sequences": [
+        {
+            "_id": "1T",
+            "rotate": true
+        },
+        {
+            "_id": "1SA",
+            "rotate": true
+        }
+    ],
+    "bids": [
+        {
+            "_id": "1T",
+            "rotate": true,
+            "stats": {
+                "totalDeals": 88965,
+                "selectedDeals": 10000,
+                "percent": 11.2
+            },
+            "pbn": "[1 : {Je suis 1}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:K4.Q9642.K4.K953 QT863.A753.7.Q86 72.8.AQT9852.JT4 AJ95.KJT.J63.A72\"]\n\n[2 : {Je suis 2}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:.A9742.AJT9.AT92 AT9654..87632.76 QJ2.Q863.54.Q843 K873.KJT5.KQ.KJ5\"]\n\n[3 : {Je suis 3}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:KQJT954.6..K7654 .AQJ972.QJ984.T3 862.K53.A653.982 A73.T84.KT72.AQJ\"]\n\n[4 : {Je suis 4}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:AT76.Q972.73.T75 J4.AK843.J954.J8 K953.T5.AQT.9642 Q82.J6.K862.AKQ3\"]\n\n[5 : {Je suis 5}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:T3.AK87.K75.A732 Q42.T964.AJ32.54 K875.QJ53.T9.Q86 AJ96.2.Q864.KJT9\"]\n\n[6 : {Je suis 6}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:Q843.KT965.KT.Q3 6.7.Q9864.AJT754 AJ75.J432.J52.98 KT92.AQ8.A73.K62\"]\n\n[7 : {Je suis 7}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:K92.6.KT7653.QT8 J4.AKQ842.82.K94 QT876.T953.J.J65 A53.J7.AQ94.A732\"]\n\n[8 : {Je suis 8}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:QJ93.KJ87.A5.982 5.QT943.JT72.AKQ 8742.6.Q98643.T6 AKT6.A52.K.J7543\"]\n\n[9 : {Je suis 9}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:7643.KT98.J98.K5 KQJ9.7642.KT63.6 T8.AQ5.754.QJT84 A52.J3.AQ2.A9732\"]\n\n[10 : {Je suis 10}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:Q54.AT7643.A.T63 T963.QJ8.QJT2.AK J82.952.K763.J84 AK7.K.9854.Q9752\"]\n\n[11 : {Je suis 11}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:84.QJT872.3.8543 763.96.T742.KQJ6 QT52.K5.AKQ865.2 AKJ9.A43.J9.AT97\"]\n\n[12 : {Je suis 12}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:QJ.J72.AQ63.KT73 KT654.T.J75.QJ85 92.Q86543.T2.A64 A873.AK9.K984.92\"]\n\n[13 : {Je suis 13}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:AQ975.85.K872.K3 K63.QT92.T43.QJ9 J4.J64.AQJ95.764 T82.AK73.6.AT852\"]\n\n[14 : {Je suis 14}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:J87.QJ2.AJ93.KQ2 KQ32.64.KT54.865 T65.K985.82.JT73 A94.AT73.Q76.A94\"]\n\n[15 : {Je suis 15}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:AK6.854.KQ9432.8 T2.QJT3.T86.J754 QJ9743.AK76.7.63 85.92.AJ5.AKQT92\"]\n\n[16 : {Je suis 16}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:43.A32.KJ8753.94 J872.JT96.9.JT75 AQ96.K85.T62.KQ6 KT5.Q74.AQ4.A832\"]\n\n[17 : {Je suis 17}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:AT73..983.KQT763 KJ962.KJ976.J74. 85.AT843.KT62.52 Q4.Q52.AQ5.AJ984\"]\n\n[18 : {Je suis 18}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:A53.AT8.KJT43.62 J84.952.872.Q753 QT62.KQJ743.5.T9 K97.6.AQ96.AKJ84\"]\n\n[19 : {Je suis 19}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:J652.J72.AQ5.742 T3.T5.KJ96.QT965 AQ9.K964.T742.J8 K874.AQ83.83.AK3\"]\n\n[20 : {Je suis 20}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:JT73.9.KQ985.876 A82.J76543.6.J93 KQ.QT2.A74.QT542 9654.AK8.JT32.AK\"]\n\n[21 : {Je suis 21}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:K87.87.AKQ82.QT7 J3.654.JT96.J865 QT654.A932.54.K9 A92.KQJT.73.A432\"]\n\n[22 : {Je suis 22}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:K96.JT4.87.KJT87 QJ5.Q953.AT5.642 T843.A6.QJ96.953 A72.K872.K432.AQ\"]\n\n[23 : {Je suis 23}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:865.KQT6.K973.T2 KQJ93.983.A62.73 A742.J75.QJ8.K86 T.A42.T54.AQJ954\"]\n\n[24 : {Je suis 24}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:T5.AQ7.4.JT96532 AJ98.94.KQT6532. KQ7632.J6532.A8. 4.KT8.J97.AKQ874\"]\n\n[25 : {Je suis 25}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:87654.AQ6.984.T5 T92.854.K532.K84 AJ3.K973.QJT.963 KQ.JT2.A76.AQJ72\"]\n\n[26 : {Je suis 26}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:962.J32.J65.9532 QJ5.AQT.T942.T87 AK84.K654.83.K64 T73.987.AKQ7.AQJ\"]\n\n[27 : {Je suis 27}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:KJ742.T82.A7.K84 AT98.AQ.QT83.Q96 6.97653.965.T752 Q53.KJ4.KJ42.AJ3\"]\n\n[28 : {Je suis 28}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:KT95.KQ76.A96.87 AQ83.J953.KQ83.5 642.T842.T74.Q32 J7.A.J52.AKJT964\"]\n\n[29 : {Je suis 29}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:JT763.84.32.AQJT 92.KJT96.AJ8764. 854.A732.KQ9.932 AKQ.Q5.T5.K87654\"]\n\n[30 : {Je suis 30}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:9862.AK87.42.762 J4.T96.J9863.AT9 A753.J4.AQT7.843 KQT.Q532.K5.KQJ5\"]\n\n[31 : {Je suis 31}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:JT82.J84.J76.KQ2 K7.T93.A9542.AJ9 Q943.A52.QT83.T7 A65.KQ76.K.86543\"]\n\n[32 : {Je suis 32}]\n\n[\nEt entre les deux coule une riviere\n]\n\n[Deal \"N:9.AJ987.T843.875 AKJT6.KQ65.AQ7.K 8753.T32.65.JT63 Q42.4.KJ92.AQ942\"]\n\n\n\n_END_OF_DEALS_\n\n\n17 {Je suis 17} 18 {Je suis 18} 1 {Je suis 1} 20 {Je suis 20} 19 {Je suis 19} 2 {Je suis 2} 21 {Je suis 21} 3 {Je suis 3} 22 {Je suis 22} 4 {Je suis 4} 23 {Je suis 23} 5 {Je suis 5} 24 {Je suis 24} 6 {Je suis 6} 25 {Je suis 25} 7 {Je suis 7} 26 {Je suis 26} 8 {Je suis 8} 27 {Je suis 27} 9 {Je suis 9} 10 {Je suis 10} 28 {Je suis 28} 11 {Je suis 11} 30 {Je suis 30} 29 {Je suis 29} 12 {Je suis 12} 31 {Je suis 31} 13 {Je suis 13} 32 {Je suis 32} 14 {Je suis 14} 15 {Je suis 15} 16 {Je suis 16}\n"
+        },
+        {
+            "_id": "1SA",
+            "rotate": true,
+            "stats": {
+                "totalDeals": 70742,
+                "selectedDeals": 10000,
+                "percent": 14.1
+            }
+        }
+    ]
+}

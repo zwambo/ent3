@@ -1,0 +1,60 @@
+---
+_id: comp
+name: Compétitives
+lang: fr
+sequences:
+- _id: interventions
+  name: 'Interventions sur ouvertures adverses
+
+'
+  desc: 'Nord ouvre tout et n''importe quoi, ou pire :-)
+
+'
+  boards: 100
+  rotate: false
+- _id: x-2K-multi
+  name: Défense contre 2♦ Multi
+  desc: |
+    Nord ouvre de 2♦
+    4-10 hcp, 6+♥/♠
+    ou 22-23 BAL
+    ou unicolore ACOL ♣/♦
+  rotate: false
+- _id: x-2C-44-MAJ
+  name: Défense contre 2♥ 4+4+ MAJ
+  desc: Nord ouvre de 2♥ 4+♥ & 4+♠
+  rotate: false
+bids:
+- _id: interventions
+  name: 'Interventions sur ouvertures adverses
+
+'
+  desc: 'Nord ouvre tout et n''importe quoi, ou pire :-)
+
+'
+  boards: 100
+  rotate: false
+  stats:
+    totalDeals: 16937
+    selectedDeals: 10000
+    percent: 59.0
+- _id: x-2K-multi
+  name: Défense contre 2♦ Multi
+  desc: |
+    Nord ouvre de 2♦
+    4-10 hcp, 6+♥/♠
+    ou 22-23 BAL
+    ou unicolore ACOL ♣/♦
+  rotate: false
+  stats:
+    totalDeals: 134805
+    selectedDeals: 10000
+    percent: 7.4
+- _id: x-2C-44-MAJ
+  name: Défense contre 2♥ 4+4+ MAJ
+  desc: Nord ouvre de 2♥ 4+♥ & 4+♠
+  rotate: false
+  stats:
+    totalDeals: 255323
+    selectedDeals: 10000
+    percent: 3.9

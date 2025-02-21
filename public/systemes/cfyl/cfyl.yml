@@ -1,0 +1,151 @@
+---
+_id: cfyl
+name: 'Majeure 5ème, Meilleure Mineure
+
+'
+lang: fr
+players:
+- Catherine Favé
+- Yves Lesage
+sequences:
+- _id: 1T
+  name: 1♣ (Ouest)
+  rotate: true
+  desc: |
+    Régulières 11-14 3+♣
+    ou Régulières 18-19 3+♣
+    ou Irrégulières 11+ 5+♣
+    ou Tricolores 4441 singleton ♦/♥
+- _id: 1K
+  name: 1♦ (Ouest)
+  desc: |
+    Régulières 18-19 3+♦
+    ou Irrégulières 5+♦
+    ou Tricolores 4441 singleton ♣/♠
+  rotate: true
+- _id: 1C
+  name: 1♥ (Ouest)
+  desc: 11+ 5+ cartes
+  rotate: true
+- _id: 1P
+  name: 1♠ (Ouest)
+  desc: 11+ 5+ cartes
+  rotate: true
+- _id: 1SA
+  name: 1SA (Ouest)
+  desc: 14+/17, 5♥/♠ possibles, 6♣/♦ possibles
+  rotate: true
+- _id: 2T
+  name: 2♣ (Ouest)
+  desc: Régulières 24+ ou Irrégulières F/M
+  rotate: true
+- _id: 2K
+  name: 2♦ (Ouest)
+  desc: |
+    4-10 hcp, 6+♥/♠ (destructif)
+    ou 22-23 BAL
+    ou unicolore ACOL ♣/♦
+  rotate: true
+- _id: 2C
+  name: 2♥ (Ouest)
+  desc: 4-10 4+♥ & 4+♠
+  rotate: true
+- _id: 2P
+  name: 2♠ (Ouest)
+  desc: 4-10 hcp 5♠ 4+♣/♦
+  rotate: true
+- _id: 2SA
+  name: 2SA (Ouest)
+  desc: bal 20-21
+  rotate: true
+bids:
+- _id: 1T
+  name: 1♣ (Ouest)
+  rotate: true
+  desc: |
+    Régulières 11-14 3+♣
+    ou Régulières 18-19 3+♣
+    ou Irrégulières 11+ 5+♣
+    ou Tricolores 4441 singleton ♦/♥
+  stats:
+    totalDeals: 77884
+    selectedDeals: 10000
+    percent: 12.8
+- _id: 1K
+  name: 1♦ (Ouest)
+  desc: |
+    Régulières 18-19 3+♦
+    ou Irrégulières 5+♦
+    ou Tricolores 4441 singleton ♣/♠
+  rotate: true
+  stats:
+    totalDeals: 72704
+    selectedDeals: 10000
+    percent: 13.7
+- _id: 1C
+  name: 1♥ (Ouest)
+  desc: 11+ 5+ cartes
+  rotate: true
+  stats:
+    totalDeals: 207706
+    selectedDeals: 10000
+    percent: 4.8
+- _id: 1P
+  name: 1♠ (Ouest)
+  desc: 11+ 5+ cartes
+  rotate: true
+  stats:
+    totalDeals: 195049
+    selectedDeals: 10000
+    percent: 5.1
+- _id: 1SA
+  name: 1SA (Ouest)
+  desc: 14+/17, 5♥/♠ possibles, 6♣/♦ possibles
+  rotate: true
+  stats:
+    totalDeals: 107747
+    selectedDeals: 10000
+    percent: 9.2
+- _id: 2T
+  name: 2♣ (Ouest)
+  desc: Régulières 24+ ou Irrégulières F/M
+  rotate: true
+  stats:
+    totalDeals: 165411
+    selectedDeals: 10000
+    percent: 6.0
+- _id: 2K
+  name: 2♦ (Ouest)
+  desc: |
+    4-10 hcp, 6+♥/♠ (destructif)
+    ou 22-23 BAL
+    ou unicolore ACOL ♣/♦
+  rotate: true
+  stats:
+    totalDeals: 193739
+    selectedDeals: 10000
+    percent: 5.1
+- _id: 2C
+  name: 2♥ (Ouest)
+  desc: 4-10 4+♥ & 4+♠
+  rotate: true
+  stats:
+    totalDeals: 248443
+    selectedDeals: 10000
+    percent: 4.0
+- _id: 2P
+  name: 2♠ (Ouest)
+  desc: 4-10 hcp 5♠ 4+♣/♦
+  rotate: true
+  stats:
+    totalDeals: 275953
+    selectedDeals: 10000
+    percent: 3.6
+- _id: 2SA
+  name: 2SA (Ouest)
+  desc: bal 20-21
+  rotate: true
+  stats:
+    totalDeals: 1563267
+    selectedDeals: 10000
+    percent: 0.6

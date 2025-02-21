@@ -1,16 +1,15 @@
-// src/components/App.jsx
-
-import { createEffect, onMount } from 'solid-js';
-import './App.css'; //le point est important
+// Fichier: src/App.jsx
+// =========================================
+import {  onMount } from 'solid-js'; // Plus besoin de createEffect ici
+import './App.css';
 import SystemSelector from './components/SystemSelector';
 import BidSelector from './components/BidSelector';
 import DealViewer from './components/DealViewer';
 import { systems, updateSystems } from './stores/stores';
 
 function App() {
-
   onMount(() => {
-    fetch('/systemes.json') // Assurez-vous que le chemin est correct
+    fetch('/systemes.json')
       .then(response => response.json())
       .then(data => {
         updateSystems(data);
