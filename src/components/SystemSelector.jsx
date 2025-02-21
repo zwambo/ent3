@@ -1,9 +1,8 @@
 // Fichier: src/components/SystemSelector.jsx
-
-import { systems, selectedSystem, setSelectedSystem } from '../stores/stores'; // On utilise setSelectedSystem directement
+// =========================================
+import { systems, selectedSystem, setSelectedSystem } from '../stores/stores';
 
 function SystemSelector() {
-
   return (
     <div className="border p-2">
       <h2>Système</h2>
@@ -11,8 +10,8 @@ function SystemSelector() {
         {systems().map(system => (
           <li
             key={system._id}
-            className={selectedSystem() === system._id ? 'bg-blue-200 cursor-pointer' : 'cursor-pointer'}
-            onClick={() => setSelectedSystem(system._id)}
+            className={selectedSystem() === system ? 'bg-blue-200 cursor-pointer' : 'cursor-pointer'}
+            onClick={() => setSelectedSystem(system)}
           >
             {system.name || system._id}
           </li>

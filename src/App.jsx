@@ -1,11 +1,11 @@
-// Fichier: src/App.jsx
-// =========================================
+// src/App.jsx
+
 import {  onMount } from 'solid-js'; // Plus besoin de createEffect ici
 import './App.css';
 import SystemSelector from './components/SystemSelector';
 import BidSelector from './components/BidSelector';
-import DealViewer from './components/DealViewer';
-import { systems, updateSystems } from './stores/stores';
+import DealList from './components/DealList';
+import { systems, updateSystems, selectedBid, setSelectedBid } from './stores/stores';
 
 function App() {
   onMount(() => {
@@ -23,7 +23,7 @@ function App() {
         <SystemSelector />
         <BidSelector />
       </div>
-      <DealViewer />
+      {selectedBid() && DealList()}
     </div>
   );
 }

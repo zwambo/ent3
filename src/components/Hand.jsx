@@ -1,67 +1,70 @@
 // Fichier: src/components/Hand.jsx
-// =========================================
-import { createMemo } from 'solid-js';
-import { deals, currentDealIndex, visibility } from '../stores/stores';
+
+import pbn from "../utils/pbn-reader";
+import { visibility } from "../stores/stores";
 
 function Hand(props) {
+	if (!props.hand) {
+		return null;
+	}
 
-    const currentDeal = createMemo(() => { // MODIFICATION ICI
-        if (deals() && deals().length > 0 && currentDealIndex() < deals().length) {
-            return deals()[currentDealIndex()];
-        }
-        return null
-    });
+	const visible = () => visibility()[props.position];
 
-    const hand = createMemo(() => { // MODIFICATION ICI
-        if (!currentDeal() || !currentDeal()) {
-            return null;
-        }
-        switch (props.position) {
-            case 'N': return currentDeal().north;
-            case 'E': return currentDeal().east;
-            case 'S': return currentDeal().south;
-            case 'W': return currentDeal().west;
-            default: return null
-        }
-    });
-    const visible = () => visibility()[props.position];
+	const suitSymbols = {
+		S: "♠",
+		H: "♥",
+		D: "♦",
+		C: "♣",
+	};
 
-    const suitSymbols = {
-        S: '♠',
-        H: '♥',
-        D: '♦',
-        C: '♣',
-    };
-    const cardSymbols = {
-        'T': '10',
-        'J': 'V',
-        'Q': 'D',
-        'K': 'R',
-        'A': 'A'
-    }
-    return (
-        <div className="border p-2 w-1/4">
-            <h3>{props.position}</h3>
-            {visible() && hand() ? (
-                <div>
-                    <div>{hand().S.split('').map(card => ( //Modif ici
-                        <span key={card}>{cardSymbols[card] || card}</span>
-                    ))}</div>
-                    <div>{hand().H.split('').map(card => ( //Modif ici
-                        <span key={card}>{cardSymbols[card] || card}</span>
-                    ))}</div>
-                    <div>{hand().D.split('').map(card => ( //Modif ici
-                        <span key={card}>{cardSymbols[card] || card}</span>
-                    ))}</div>
-                    <div>{hand().C.split('').map(card => ( //Modif ici
-                        <span key={card}>{cardSymbols[card] || card}</span>
-                    ))}</div>
-                </div>
-            ) : (
-                <p>Caché</p>
-            )}
-        </div>
-    );
+	const cardSymbols = {
+		T: "10",
+		J: "V",
+		Q: "D",
+		K: "R",
+		A: "A",
+	};
+
+	const substituteCards = (card) => {
+		if (card === "") return "—";
+		return cardSymbols[card] || card;
+	};
+
+	const renderSuit = (suit) => {
+		if (!props.hand || !props.hand[suit]) {
+			return <p>—</p>; // Affiche — si la main ou la couleur est manquante
+		}
+
+		const cards = props.hand[suit].split("");
+		return (
+			<p className="text-left">
+				<span className="text-left pr-2">{suitSymbols[suit]}</span>
+				{cards.map((card, index) => (
+					<span
+						key={`${props.position}-${suit}-${index}`}
+						className="mr-1"
+					>
+						{substituteCards(card)}
+					</span>
+				))}
+			</p>
+		);
+	};
+
+	return (
+		<div className="p-2 font-mono text-lg">
+			{visible() ? (
+				<>
+					{renderSuit("S")}
+					{renderSuit("H")}
+					{renderSuit("D")}
+					{renderSuit("C")}
+				</>
+			) : (
+				<p>Caché</p>
+			)}
+		</div>
+	);
 }
 
 export default Hand;

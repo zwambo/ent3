@@ -65,7 +65,6 @@ function parseDeals (boards) {
   const resArray = {
     deals: []
   }
-  console.log("parsedDeals  boards: %O", boardsArray); // Débogage
 
   for (const board of boardsArray) {
     const boardRes = {
